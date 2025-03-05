@@ -7,7 +7,7 @@ $vmProcessorCount = 2 # CPU cores settings
 $vmVHDPath = "$vmPath\$vmName\Virtual Hard Disks\$vmName.vhdx" # Path to your VM's disks
 $vmVHDSize = 80GB # VM HDD size
 $isoPath = "D:\Images\ws2k19.iso" # Path to Installation ISO image
-$switchName = "vswitch" # Virtual switch
+$switchName = "vswitch-srv" # Virtual switch
 
 # Create a folder for the virtual machine
 New-Item -ItemType Directory -Path "$vmPath\$vmName" -Force
